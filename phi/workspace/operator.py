@@ -396,7 +396,7 @@ def setup_workspace(ws_root_path: Path) -> bool:
     ######################################################
     ## End Workspace setup
     ######################################################
-
+return
 
 def start_workspace(
     phi_config: PhiCliConfig,
