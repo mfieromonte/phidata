@@ -1,0 +1,11 @@
+duties:    
+  sonar1:
+    cron: "* * * * *"
+    sonar_project_key: mfieromonte_phidata
+    sonar_rules:
+    - python:S1135 #resolve todo
+    - python:S1481 #unused variable
+    - python:S2772 #remove pass
+    - python:S2737 #add logic to except
+    - python:S100 #method name has to follow a naming convention
+    - python:S3626
