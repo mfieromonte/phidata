@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Optional, Dict, List
 
-
+##
 from phi.api.workspace import log_workspace_event
 from phi.api.schemas.workspace import (
     WorkspaceSchema,
@@ -12,7 +12,7 @@ from phi.api.schemas.workspace import (
 )
 from phi.cli.config import PhiCliConfig
 from phi.cli.console import (
-    console,
+    console, 
     print_heading,
     print_info,
     print_subheading,
